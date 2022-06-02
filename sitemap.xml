@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dormancywang.github.io/2022/06/02/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    
+    <lastmod>2022-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dormancywang.github.io/tags/index.html</loc>
     
     <lastmod>2022-06-01</lastmod>
@@ -72,6 +81,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://dormancywang.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2022-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   

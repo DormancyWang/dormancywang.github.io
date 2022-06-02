@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>A blog</title>
+  
+  
+  <link href="https://dormancywang.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://dormancywang.github.io/"/>
+  <updated>2022-06-02T12:36:51.569Z</updated>
+  <id>https://dormancywang.github.io/</id>
+  
+  <author>
+    <name>GZ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于数据库</title>
+    <link href="https://dormancywang.github.io/2022/06/02/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>https://dormancywang.github.io/2022/06/02/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <published>2022-06-02T12:35:51.000Z</published>
+    <updated>2022-06-02T12:36:51.569Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello&quot;&gt;&lt;/a&gt;hello&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="数据库" scheme="https://dormancywang.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+</feed>
