@@ -6,7 +6,7 @@
   <link href="https://dormancywang.github.io/atom.xml" rel="self"/>
   
   <link href="https://dormancywang.github.io/"/>
-  <updated>2022-06-02T12:36:51.569Z</updated>
+  <updated>2022-06-04T03:33:46.297Z</updated>
   <id>https://dormancywang.github.io/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker安装</title>
+    <link href="https://dormancywang.github.io/2022/06/04/docker%E5%AE%89%E8%A3%85/"/>
+    <id>https://dormancywang.github.io/2022/06/04/docker%E5%AE%89%E8%A3%85/</id>
+    <published>2022-06-04T02:52:54.000Z</published>
+    <updated>2022-06-04T03:33:46.297Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux-安装"><a href="#Linux-安装" class="headerlink" title="Linux 安装"></a>Linux 安装</h1><p>花里胡哨的一堆</p><img src="/2022/06/04/docker%E5%AE%89%E8%A3%85/%E5%AE%89%E8%A3%85.png" class="" title="docker"><p>安装engine就可以了</p><h2 id="Docker-Engine-overview"><a href="#Docker-Engine-overview" class="headerlink" title="Docker Engine overview"></a>Docker Engine overview</h2><p>Docker Engine is an open source containerization technology for building and containerizing your applications. Docker Engine acts as a client-server application with:</p><p>A server with a long-running daemon process dockerd.<br>APIs which specify interfaces that programs can use to talk to and instruct the Docker daemon.<br>A command line interface (CLI) client docker.</p><p>The CLI uses Docker APIs to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI. The daemon creates and manage Docker objects, such as images, containers, networks, and volumes.</p><p>还是想强调api和cli的重要性</p><p>特性过期策略到官网找吧</p><p>一些前置的操作也看官网吧</p><ol><li>卸载旧版本 老版本的叫做 <code>docker</code> <code>docker-engine</code></li><li><code>/var/lib/docker</code> 里面 including images, containers, volumes, and networks, are preserved.都被保存了Docker Engine package 现在叫做<code>docker-ce</code></li></ol><h2 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h2><p>Most users set up <em>Docker’s repositories</em> and install from them, for ease of installation and upgrade tasks. This is the recommended approach. 设置docker仓库，安装</p><p>Some users download the RPM package and install it manually and manage upgrades completely manually. This is useful in situations such as installing Docker on air-gapped systems with no access to the internet.使用rpm来到不联网的机器上安装</p><p>In testing and development environments, some users choose to use automated convenience scripts to install Docker. 使用脚本安装</p><h3 id="install-using-the-repository"><a href="#install-using-the-repository" class="headerlink" title="install using the repository"></a>install using the repository</h3><h4 id="设置仓库"><a href="#设置仓库" class="headerlink" title="设置仓库"></a>设置仓库</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install -y yum-utils</span><br><span class="line">sudo yum-config-manager \</span><br><span class="line">   --add-repo \</span><br><span class="line">   https://download.docker.com/linux/centos/docker-ce.repo</span><br></pre></td></tr></table></figure><p>Install the latest version of Docker Engine, containerd, and Docker Compose or go to the next step to install a specific version</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin</span><br></pre></td></tr></table></figure><p> 这是个啥玩意，containerd???这也要安装？</p><p> This command installs Docker, but it doesn’t start Docker. It also creates a docker group, however, it doesn’t add any users to the group by default.还帮你创建了一个组</p><p>安装特定版本，看官网吧，有点麻烦<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum list docker-ce --showduplicates | sort -r</span><br><span class="line"></span><br></pre></td></tr></table></figure></p><p> 安装完成启动就好了</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start docker</span><br><span class="line">sudo docker run hello-world</span><br></pre></td></tr></table></figure><p> 安装完成后需要sudo来运行，除非你去设置了 linux postinstall 的相关内容</p><h3 id="install-from-a-package"><a href="#install-from-a-package" class="headerlink" title="install from a package"></a>install from a package</h3><ol><li>Go to <a href="https://download.docker.com/linux/centos/">https://download.docker.com/linux/centos/</a> and choose your version of CentOS. Then browse to x86_64&#x2F;stable&#x2F;Packages&#x2F; and download the .rpm file for the Docker version you want to install 下rpm的包</li><li><code>yum install path_to_package.rpm</code><br> 其他都一样</li></ol><h3 id="升级就是重按一遍，嗯，真方便"><a href="#升级就是重按一遍，嗯，真方便" class="headerlink" title="升级就是重按一遍，嗯，真方便"></a>升级就是重按一遍，嗯，真方便</h3><h3 id="使用方便的脚本"><a href="#使用方便的脚本" class="headerlink" title="使用方便的脚本"></a>使用方便的脚本</h3><p> get.docker.com  可以自己加以定制</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Linux-安装&quot;&gt;&lt;a href=&quot;#Linux-安装&quot; class=&quot;headerlink&quot; title=&quot;Linux 安装&quot;&gt;&lt;/a&gt;Linux 安装&lt;/h1&gt;&lt;p&gt;花里胡哨的一堆&lt;/p&gt;
+&lt;img src=&quot;/2022/06/04/docker%E5%AE</summary>
+      
+    
+    
+    
+    
+    <category term="分布式技术" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Docker" scheme="https://dormancywang.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker overview</title>
+    <link href="https://dormancywang.github.io/2022/06/04/Docker/"/>
+    <id>https://dormancywang.github.io/2022/06/04/Docker/</id>
+    <published>2022-06-04T01:18:32.000Z</published>
+    <updated>2022-06-04T02:50:48.261Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Docker-overview"><a href="#Docker-overview" class="headerlink" title="Docker overview"></a>Docker overview</h1><ol><li>Docker is an open platform for developing, shipping, and running applications.</li><li>Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.容器技术顾名思义，小linux系统</li><li>container ： a loosely isolated environment that run the applicaition 比较概括吧，就是具体指运行的哪一个环境叫做容器，docker 本身并不叫</li><li>container is lightweight and contain everything needed</li><li>docker 的功能：<ol><li>Fast, consistent delivery of your applications</li><li>Responsive deployment and scaling弹性伸缩吧，响应式部署</li><li>Running more workloads on the same hardware跟上面一样，动态的<h2 id="Docker-architectrue"><a href="#Docker-architectrue" class="headerlink" title="Docker architectrue"></a>Docker architectrue</h2></li></ol></li><li>client-server architecture<img src="/2022/06/04/Docker/docker_architecture.png" class="" title="docker"></li></ol><p>Docker daemon 负责构建部署和发布容器，Docker Client用来与docker daemon通讯，可以本机，也可以远程。使用rest api，基于 unix socket或者 一个网络接口？？？不懂是啥意思 。udp么？</p><p> 还有一个Docker client is Docker Compose , let you work with applications consisting of a set of containers.</p><h3 id="一一介绍"><a href="#一一介绍" class="headerlink" title="一一介绍"></a>一一介绍</h3><h4 id="Docker-daemon"><a href="#Docker-daemon" class="headerlink" title="Docker daemon"></a>Docker daemon</h4><p>The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.docker对象，daemon之间可以相互通讯</p><h4 id="Docker-client"><a href="#Docker-client" class="headerlink" title="Docker client"></a>Docker client</h4><p>The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the <em>Docker API</em>. The Docker client can communicate with more than one daemon.<br>用户工具了属实是，去docker api查用法</p><h4 id="Docker-Desktop"><a href="#Docker-Desktop" class="headerlink" title="Docker Desktop"></a>Docker Desktop</h4><p> Docker Desktop includes the Docker daemon (dockerd), the Docker client (docker), Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper. 桌面工具</p><h4 id="Docker-registries"><a href="#Docker-registries" class="headerlink" title="Docker registries"></a>Docker registries</h4><p>A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.</p><p>When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.</p><p>镜像中心 </p><h4 id="Docker-Object-docker对象"><a href="#Docker-Object-docker对象" class="headerlink" title="Docker Object docker对象"></a>Docker Object docker对象</h4><p>Images：只读的，有指南，说明？大概是这个意思的docker 容器</p><p>You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies. 听起来挺强大的，分层的</p><h4 id="Containers"><a href="#Containers" class="headerlink" title="Containers"></a>Containers</h4><p>A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. docker api看起来挺重要的，是基础<br> You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state. 一个容器可以连接多个网络？这有点玄乎</p><p> 容器的独立的，可以通过主机，或者其他容器控制</p><p> A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear，没有持久化的配置会消亡</p><h3 id="dcoker-run-流程"><a href="#dcoker-run-流程" class="headerlink" title="dcoker run 流程"></a>dcoker run 流程</h3><p><code> docker run -i -t ununtu /bin/bash</code></p><ol><li>If you do not have the ubuntu image locally, Docker pulls it from your configured registry, as though you had run <code>docker pull ubuntu </code> manually. 第一步拉取镜像</li><li>Docker creates a new container, as though you had run a <code>docker container create </code>command manually.创建容器</li><li>Docker allocates a read-write filesystem to the container, as its final layer. This allows a running container to create or modify files and directories in its local filesystem.创建文件系统</li><li>Docker creates a network interface to connect the container to the default network, since you did not specify any networking options. This includes assigning an IP address to the container. By default, containers can connect to external networks using the host machine’s network connection.创建网络接口，拦截到default网络，分配ip</li><li>Docker starts the container and executes &#x2F;bin&#x2F;bash. Because the container is running interactively and attached to your terminal (due to the -i and -t flags), you can provide input using your keyboard while the output is logged to your terminal.</li><li>When you type exit to terminate the &#x2F;bin&#x2F;bash command, the container stops but is not removed. You can start it again or remove it. bash关了容器也就停了，所以还要有背后运行</li></ol><h3 id="底层技术"><a href="#底层技术" class="headerlink" title="底层技术"></a>底层技术</h3><ol><li>Go写的，借鉴了linux的特性</li><li>namespace来提供隔离的工作空间也就是container</li><li>These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace. 有一个隔离的层的概念，不知道他想说啥，新东西？</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Docker-overview&quot;&gt;&lt;a href=&quot;#Docker-overview&quot; class=&quot;headerlink&quot; title=&quot;Docker overview&quot;&gt;&lt;/a&gt;Docker overview&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;Docker is an</summary>
+      
+    
+    
+    
+    
+    <category term="分布式技术" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Docker" scheme="https://dormancywang.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于jvm</title>
+    <link href="https://dormancywang.github.io/2022/06/02/%E5%85%B3%E4%BA%8Ejvm/"/>
+    <id>https://dormancywang.github.io/2022/06/02/%E5%85%B3%E4%BA%8Ejvm/</id>
+    <published>2022-06-02T12:40:45.000Z</published>
+    <updated>2022-06-02T12:41:43.764Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="java-内存模型"><a href="#java-内存模型" class="headerlink" title="java 内存模型"></a>java 内存模型</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;java-内存模型&quot;&gt;&lt;a href=&quot;#java-内存模型&quot; class=&quot;headerlink&quot; title=&quot;java 内存模型&quot;&gt;&lt;/a&gt;java 内存模型&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="java" scheme="https://dormancywang.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>关于数据库</title>
