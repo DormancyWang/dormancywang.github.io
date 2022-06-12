@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://dormancywang.github.io/2022/06/11/vim/</loc>
+    <lastmod>2022-06-12</lastmod>
+  </url>
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/11/webSocket/</loc>
+    <lastmod>2022-06-11</lastmod>
+  </url>
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/07/java-base/</loc>
+    <lastmod>2022-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/05/docker6/</loc>
+    <lastmod>2022-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/05/docker5/</loc>
+    <lastmod>2022-06-05</lastmod>
+  </url>
+  <url>
     <loc>https://dormancywang.github.io/2022/06/04/docker4/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-05</lastmod>
   </url>
   <url>
     <loc>https://dormancywang.github.io/2022/06/04/docker3/</loc>

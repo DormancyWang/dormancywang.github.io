@@ -6,7 +6,7 @@
   <link href="https://dormancywang.github.io/atom.xml" rel="self"/>
   
   <link href="https://dormancywang.github.io/"/>
-  <updated>2022-06-04T15:38:39.341Z</updated>
+  <updated>2022-06-12T10:35:53.205Z</updated>
   <id>https://dormancywang.github.io/</id>
   
   <author>
@@ -17,13 +17,116 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>vim</title>
+    <link href="https://dormancywang.github.io/2022/06/11/vim/"/>
+    <id>https://dormancywang.github.io/2022/06/11/vim/</id>
+    <published>2022-06-11T10:25:42.000Z</published>
+    <updated>2022-06-12T10:35:53.205Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>vim是我一直想学的东西，但是vim也是深度定制的工具。如果不能获取发明人的原始想法，遇到的原始问题，那vim对于我们来说就会变成倾向于记忆的东西。 当然你可以用自己的使用经验来补充这些东西。 但是对于有些完美主义的我来说，这让我很难受。我曾经很厌恶vim，但是现在却又想主动学习它。 这是我人生的缩影，我和这个世界并不合拍。  vim当然是好的。是我的问题罢了</p><h1 id="Some-books"><a href="#Some-books" class="headerlink" title="Some books"></a>Some books</h1><ol><li>Learning the vi and Vim Editors: Power and Agility Beyond Just Text Editing</li></ol><p>一本比较全面的书，介绍了vi，和 vi clones (vim 是一种vi clones)</p><ol start="2"><li>Mastering Vim</li></ol><p>Besides introducing Vim commands, it gives a lot of attention to installing and using plugins.</p><ol start="3"><li>Modern Vim</li></ol><p>也是有关插件的，可以看看</p><ol start="4"><li>Practical Vim</li></ol><p>一些使用技巧，看完基础看</p><ol start="5"><li>The VimL Primer</li></ol><p>有关VIm 脚本语言的</p><ol start="6"><li><p>The Vim Book<br>高级特性讲的不多</p></li><li><p>Hacking Vim<br>7.2 版本的，性特性多</p></li></ol><h1 id="Begin"><a href="#Begin" class="headerlink" title="Begin"></a>Begin</h1><p>先过一遍vimtutor  有基本的操作</p><p>重要的知识点总结一下</p><ol><li>moving cursor</li><li>exiting vim </li><li>deletion<br>x,p</li><li>几个插入<br>i insert,a,A append ,o,O open a new line</li><li>e,w 关于移动的，d关于删除的</li></ol><h1 id="usr-01-txt"><a href="#usr-01-txt" class="headerlink" title="usr_01.txt"></a>usr_01.txt</h1><ol><li>two manuals<ol><li>user manual:任务导向的，像书一样读就可以了</li><li>Reference manual: 规范</li></ol></li></ol><p>side effect -&gt; undesirable effect, seconedary effect  , not really bad effect,but sideway</p><p>设置.vimrc  </p><p>设置compatialbe 模式为关闭状态，因为vim对vi进行了增强，所以会有一些指令不兼容</p><h1 id="usr-02-txt"><a href="#usr-02-txt" class="headerlink" title="usr_02.txt"></a>usr_02.txt</h1><p>modal editor</p><p>vim is a modal editor! 有不同的模式</p><p>今日学习了 光标的移动，翻页，基本的搜索，mark功能</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;vim是我一直想学的东西，但是vim也是深度定制的工具。如果不能获取发明人的原始想法，遇到的原始问题，那vim对于我们来说就会变成倾向于记忆</summary>
+      
+    
+    
+    
+    
+    <category term="vim" scheme="https://dormancywang.github.io/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>webSocket</title>
+    <link href="https://dormancywang.github.io/2022/06/11/webSocket/"/>
+    <id>https://dormancywang.github.io/2022/06/11/webSocket/</id>
+    <published>2022-06-11T01:02:59.000Z</published>
+    <updated>2022-06-11T01:02:59.823Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>java_language</title>
+    <link href="https://dormancywang.github.io/2022/06/07/java-base/"/>
+    <id>https://dormancywang.github.io/2022/06/07/java-base/</id>
+    <published>2022-06-07T03:51:36.000Z</published>
+    <updated>2022-06-07T03:52:51.277Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="java基础，面向对象"><a href="#java基础，面向对象" class="headerlink" title="java基础，面向对象"></a>java基础，面向对象</h1><h2 id="三大特性"><a href="#三大特性" class="headerlink" title="三大特性"></a>三大特性</h2><ol><li>封装</li><li>继承</li><li>多态</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;java基础，面向对象&quot;&gt;&lt;a href=&quot;#java基础，面向对象&quot; class=&quot;headerlink&quot; title=&quot;java基础，面向对象&quot;&gt;&lt;/a&gt;java基础，面向对象&lt;/h1&gt;&lt;h2 id=&quot;三大特性&quot;&gt;&lt;a href=&quot;#三大特性&quot; class=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>docker-java</title>
+    <link href="https://dormancywang.github.io/2022/06/05/docker6/"/>
+    <id>https://dormancywang.github.io/2022/06/05/docker6/</id>
+    <published>2022-06-05T08:03:54.000Z</published>
+    <updated>2022-06-05T08:05:04.201Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="BuildKit"><a href="#BuildKit" class="headerlink" title="BuildKit"></a>BuildKit</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;BuildKit&quot;&gt;&lt;a href=&quot;#BuildKit&quot; class=&quot;headerlink&quot; title=&quot;BuildKit&quot;&gt;&lt;/a&gt;BuildKit&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="分布式" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+    <category term="docker" scheme="https://dormancywang.github.io/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于进阶的docker使用</title>
+    <link href="https://dormancywang.github.io/2022/06/05/docker5/"/>
+    <id>https://dormancywang.github.io/2022/06/05/docker5/</id>
+    <published>2022-06-05T04:30:49.000Z</published>
+    <updated>2022-06-05T08:03:31.394Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Container-orchestration"><a href="#Container-orchestration" class="headerlink" title="Container orchestration"></a>Container orchestration</h2><p>生产环境中，你不会简单的docker run 就好了或者docker-compose up ，因为涉及， 1. 容器的可用，2.跨及其扩容，3.等等的问题</p><p>解决这些问题就是容器的编排<br>有 kubernets,Swarm,Nomad,ECS 这些工具可以帮助你解决。他们会有一点小不同</p><p>一般的想法是，你有一个管理者，来接受状态信息。然后他帮你去选择，搜索相应的容器</p><blockquote><p>Cloud Native Computing Foundation projects The CNCF is a vendor-neutral home for various open-source projects, including Kubernetes, Prometheus, Envoy, Linkerd, NATS, and more! You can view the graduated and incubated projects here and the entire CNCF Landscape here. There are a LOT of projects to help solve problems around monitoring, logging, security, image registries, messaging, and more!</p></blockquote><p>CNCF ,会有很多概念吧，都是基于容器的好像，监视啊，日志啊，安全啊，镜像仓库啊，messaging是个啥？<br>So, if you’re new to the container landscape and cloud-native application development, welcome! Please connect with the community, ask questions, and keep learning! We’re excited to have you!</p><p>之后就是看java语言版本的docker指南了，可能涉及一些maven啥的的构建操作</p><p>使用docker开发</p><p>设置cicd</p><p>部署</p><p>运行</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Container-orchestration&quot;&gt;&lt;a href=&quot;#Container-orchestration&quot; class=&quot;headerlink&quot; title=&quot;Container orchestration&quot;&gt;&lt;/a&gt;Container orchest</summary>
+      
+    
+    
+    
+    
+    <category term="分布式" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+    <category term="docker" scheme="https://dormancywang.github.io/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
     <title>开始实践</title>
     <link href="https://dormancywang.github.io/2022/06/04/docker4/"/>
     <id>https://dormancywang.github.io/2022/06/04/docker4/</id>
     <published>2022-06-04T11:36:43.000Z</published>
-    <updated>2022-06-04T15:38:39.341Z</updated>
+    <updated>2022-06-05T04:29:44.544Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="DockerFile"><a href="#DockerFile" class="headerlink" title="DockerFile"></a>DockerFile</h1><ol><li>A Dockerfile is simply a text-based script of instructions that is used to create a container image.  又来了 这个 instructions 具体要怎么理解啊，这指南感觉好牵强啊,指令么。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># syntax=docker/dockerfile:1</span><br><span class="line">FROM node:12-alpine</span><br><span class="line">RUN apk add --no-cache python2 g++ make</span><br><span class="line">WORKDIR /app</span><br><span class="line">COPY . .</span><br><span class="line">RUN yarn install --production</span><br><span class="line">CMD [&quot;node&quot;, &quot;src/index.js&quot;]</span><br><span class="line">EXPOSE 3000</span><br></pre></td></tr></table></figure><code>docker build -t getting-started .</code></li></ol><p>基本的创建容器操作，下面进行修改操作</p><p>就是重新build image</p><h2 id="Replace-the-old-containe"><a href="#Replace-the-old-containe" class="headerlink" title="Replace the old containe"></a>Replace the old containe</h2><p>Get the ID of the container by using the<code>docker ps</code>command</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker stop &lt;id&gt;</span><br><span class="line">docker rm &lt;id&gt; ////-f </span><br></pre></td></tr></table></figure><p>回顾：<br>While we were able to build an update, there were two things you might have noticed:</p><p>All of the existing items in our todo list are gone! That’s not a very good app! We’ll talk about that shortly. 数据都没了</p><p>There were a lot of steps involved for such a small change. In an upcoming section, we’ll talk about how to see code updates without needing to rebuild and start a new container every time we make a change. 步骤太多太麻烦</p><h2 id="Docker-Hub的使用"><a href="#Docker-Hub的使用" class="headerlink" title="Docker Hub的使用"></a>Docker Hub的使用</h2><p>create 一个repo 直接push就完了</p><h3 id="Persist-the-DB"><a href="#Persist-the-DB" class="headerlink" title="Persist the DB"></a>Persist the DB</h3><h4 id="The-container’s-filesystem"><a href="#The-container’s-filesystem" class="headerlink" title="The container’s filesystem"></a>The container’s filesystem</h4><p>When a container runs, it uses the various layers from an image for its filesystem. Each container also gets its own “scratch space” to create&#x2F;update&#x2F;remove files. Any changes won’t be seen in another container, even if they are using the same image.</p><h4 id="Container-volumes"><a href="#Container-volumes" class="headerlink" title="Container volumes"></a>Container volumes</h4><p>解决数据交互问题的，</p><p>Volumes provide the ability to connect specific filesystem paths of the container back to the host machine.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">While named volumes and bind mounts (which we’ll talk about in a minute) are the two main types of volumes supported by a default Docker engine installation, there are many volume driver plugins available to support NFS, SFTP, NetApp, and more! This will be especially important once you start running containers on multiple hosts in a clustered environment with Swarm, Kubernetes, etc.</span><br></pre></td></tr></table></figure><p>两种类型的 volumes :</p><ol><li><p>named volumes  -v  命令，起一个名字 下次还用这个名字就可以了。<code>docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started</code></p></li><li><p>查看volume存储在那个位置<code>docker volume inspect</code></p></li><li><p>bind mounts: but it’s often used to provide additional data into containers.这是用来给容器提供额外数据的，和第一个不一样，第一个是用来存储数据出来的。所以这里的逻辑有两种，取出，放入。</p></li></ol><p>For Node-based 这里的node是nodejs。。。我还以为是集群的节点 applications, <strong>nodemon</strong> 这玩意是nodejs的一个库 is a great tool to watch for file changes and then restart the application. There are equivalent tools in most other languages and frameworks.</p><h2 id="Start-a-dev-mode-container"><a href="#Start-a-dev-mode-container" class="headerlink" title="Start a dev-mode container"></a>Start a dev-mode container</h2><p>To run our container to support a development workflow, we will do the following:</p><ul><li>Mount our source code into the container</li><li>Install all dependencies, including the “dev” dependencies</li><li>Start nodemon to watch for filesystem changes</li></ul><p>这也太搞了吧。  为了搭建一个开发工作流程，他把源码文件 bind mounts到了container，container里面是运行nodemon 还是外面运行不清楚。。。。  是实现一个自动重启。  他这里的mounts机制是什么，如果不涉及复制，只是映射的话其实还挺好的。复用了。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="DockerFile"><a href="#DockerFile" class="headerlink" title="DockerFile"></a>DockerFile</h1><ol><li>A Dockerfile is simply a text-based script of instructions that is used to create a container image.  又来了 这个 instructions 具体要怎么理解啊，这指南感觉好牵强啊,指令么。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># syntax=docker/dockerfile:1</span><br><span class="line">FROM node:12-alpine</span><br><span class="line">RUN apk add --no-cache python2 g++ make</span><br><span class="line">WORKDIR /app</span><br><span class="line">COPY . .</span><br><span class="line">RUN yarn install --production</span><br><span class="line">CMD [&quot;node&quot;, &quot;src/index.js&quot;]</span><br><span class="line">EXPOSE 3000</span><br></pre></td></tr></table></figure><code>docker build -t getting-started .</code></li></ol><p>基本的创建容器操作，下面进行修改操作</p><p>就是重新build image</p><h2 id="Replace-the-old-containe"><a href="#Replace-the-old-containe" class="headerlink" title="Replace the old containe"></a>Replace the old containe</h2><p>Get the ID of the container by using the<code>docker ps</code>command</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker stop &lt;id&gt;</span><br><span class="line">docker rm &lt;id&gt; ////-f </span><br></pre></td></tr></table></figure><p>回顾：<br>While we were able to build an update, there were two things you might have noticed:</p><p>All of the existing items in our todo list are gone! That’s not a very good app! We’ll talk about that shortly. 数据都没了</p><p>There were a lot of steps involved for such a small change. In an upcoming section, we’ll talk about how to see code updates without needing to rebuild and start a new container every time we make a change. 步骤太多太麻烦</p><h2 id="Docker-Hub的使用"><a href="#Docker-Hub的使用" class="headerlink" title="Docker Hub的使用"></a>Docker Hub的使用</h2><p>create 一个repo 直接push就完了</p><h3 id="Persist-the-DB"><a href="#Persist-the-DB" class="headerlink" title="Persist the DB"></a>Persist the DB</h3><h4 id="The-container’s-filesystem"><a href="#The-container’s-filesystem" class="headerlink" title="The container’s filesystem"></a>The container’s filesystem</h4><p>When a container runs, it uses the various layers from an image for its filesystem. Each container also gets its own “scratch space” to create&#x2F;update&#x2F;remove files. Any changes won’t be seen in another container, even if they are using the same image.</p><h4 id="Container-volumes"><a href="#Container-volumes" class="headerlink" title="Container volumes"></a>Container volumes</h4><p>解决数据交互问题的，</p><p>Volumes provide the ability to connect specific filesystem paths of the container back to the host machine.</p><blockquote><p>While named volumes and bind mounts (which we’ll talk about in a minute) are the two main types of volumes supported by a default Docker engine installation, there are many volume driver plugins available to support NFS, SFTP, NetApp, and more! This will be especially important once you start running containers on multiple hosts in a clustered environment with Swarm, Kubernetes, etc.</p></blockquote><p>两种类型的 volumes :</p><ol><li><p>named volumes  -v  命令，起一个名字 下次还用这个名字就可以了。<code>docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started</code></p></li><li><p>查看volume存储在那个位置<code>docker volume inspect</code></p></li><li><p>bind mounts: but it’s often used to provide additional data into containers.这是用来给容器提供额外数据的，和第一个不一样，第一个是用来存储数据出来的。所以这里的逻辑有两种，取出，放入。</p></li></ol><p>For Node-based 这里的node是nodejs。。。我还以为是集群的节点 applications, <strong>nodemon</strong> 这玩意是nodejs的一个库 is a great tool to watch for file changes and then restart the application. There are equivalent tools in most other languages and frameworks.</p><h2 id="Start-a-dev-mode-container"><a href="#Start-a-dev-mode-container" class="headerlink" title="Start a dev-mode container"></a>Start a dev-mode container</h2><p>To run our container to support a development workflow, we will do the following:</p><ul><li>Mount our source code into the container</li><li>Install all dependencies, including the “dev” dependencies</li><li>Start nodemon to watch for filesystem changes</li></ul><p>这也太搞了吧。  为了搭建一个开发工作流程，他把源码文件 bind mounts到了container，container里面是运行nodemon 还是外面运行不清楚。。。。  是实现一个自动重启。  他这里的mounts机制是什么，如果不涉及复制，只是映射的话其实还挺好的。复用了。</p><h2 id="Multi-container-apps-多容器应用"><a href="#Multi-container-apps-多容器应用" class="headerlink" title="Multi-container apps 多容器应用"></a>Multi-container apps 多容器应用</h2><h3 id="Container-networking"><a href="#Container-networking" class="headerlink" title="Container networking"></a>Container networking</h3><p>容器之间通过网络通讯</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">     --network todo-app --network-alias mysql \</span><br><span class="line">     -v todo-mysql-data:/var/lib/mysql \</span><br><span class="line">     -e MYSQL_ROOT_PASSWORD=secret \</span><br><span class="line">     -e MYSQL_DATABASE=todos \</span><br><span class="line">     mysql:5.7</span><br></pre></td></tr></table></figure><p><code>nicolaka/netshoot</code> 一个很好用的网络排查工具</p><p>使用了–network-alias 可以做到给host起别名</p><p>不推荐使用Env var 去设置连接设置，推荐使用文件社会</p><h2 id="Docker-Compose"><a href="#Docker-Compose" class="headerlink" title="Docker Compose"></a>Docker Compose</h2><p>Docker Compose is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.</p><p>用来管理多容器应用的东西</p><h3 id="Compose-File"><a href="#Compose-File" class="headerlink" title="Compose File"></a>Compose File</h3><p>docker-compose.yml<br>去看reference就好了</p><p>配置范例</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&quot;3.7&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">app:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">node:12-alpine</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">sh</span> <span class="string">-c</span> <span class="string">&quot;yarn install &amp;&amp; yarn run dev&quot;</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">3000</span><span class="string">:3000</span></span><br><span class="line">    <span class="attr">working_dir:</span> <span class="string">/app</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./:/app</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_HOST:</span> <span class="string">mysql</span></span><br><span class="line">      <span class="attr">MYSQL_USER:</span> <span class="string">root</span></span><br><span class="line">      <span class="attr">MYSQL_PASSWORD:</span> <span class="string">secret</span></span><br><span class="line">      <span class="attr">MYSQL_DB:</span> <span class="string">todos</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mysql:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mysql:5.7</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">todo-mysql-data:/var/lib/mysql</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_ROOT_PASSWORD:</span> <span class="string">secret</span></span><br><span class="line">      <span class="attr">MYSQL_DATABASE:</span> <span class="string">todos</span></span><br><span class="line"></span><br><span class="line"><span class="attr">volumes:</span></span><br><span class="line">  <span class="attr">todo-mysql-data:</span></span><br></pre></td></tr></table></figure><p><code>docker-compose up -d</code></p><p><code>docker-compose logs -f</code><br>docker的所有容器的日志会输出到同一个stream中，因为有时间顺序，所以容易排查错误</p><p>docker不会帮你管理容器之间的依赖关系，比如你用到mysql他不会等你mysql启动在帮你启动你的容器，所以需要使用别的插件实现</p><h2 id="Docker-Scan"><a href="#Docker-Scan" class="headerlink" title="Docker Scan"></a>Docker Scan</h2><h2 id="Layer-caching"><a href="#Layer-caching" class="headerlink" title="Layer caching"></a>Layer caching</h2><p>Once a layer changes, all downstream layers have to be recreated as well</p><h2 id="Multi-stage-builds"><a href="#Multi-stage-builds" class="headerlink" title="Multi-stage builds"></a>Multi-stage builds</h2>]]></content>
     
     
       
@@ -85,9 +188,9 @@
     
     
     
-    <category term="分布式技术" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
-    
     <category term="Docker" scheme="https://dormancywang.github.io/tags/Docker/"/>
+    
+    <category term="分布式技术" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -110,9 +213,9 @@
     
     
     
-    <category term="分布式技术" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
-    
     <category term="Docker" scheme="https://dormancywang.github.io/tags/Docker/"/>
+    
+    <category term="分布式技术" scheme="https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   

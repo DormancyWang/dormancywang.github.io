@@ -2,9 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dormancywang.github.io/2022/06/11/vim/</loc>
+    
+    <lastmod>2022-06-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/11/webSocket/</loc>
+    
+    <lastmod>2022-06-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/07/java-base/</loc>
+    
+    <lastmod>2022-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/05/docker6/</loc>
+    
+    <lastmod>2022-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/2022/06/05/docker5/</loc>
+    
+    <lastmod>2022-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dormancywang.github.io/2022/06/04/docker4/</loc>
     
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,15 +128,6 @@
   </url>
   
   <url>
-    <loc>https://dormancywang.github.io/about/index.html</loc>
-    
-    <lastmod>2022-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://dormancywang.github.io/books/index.html</loc>
     
     <lastmod>2022-06-01</lastmod>
@@ -101,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://dormancywang.github.io/categories/index.html</loc>
+    <loc>https://dormancywang.github.io/about/index.html</loc>
     
     <lastmod>2022-06-01</lastmod>
     
@@ -118,46 +154,69 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://dormancywang.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-06-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://dormancywang.github.io/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://dormancywang.github.io/tags/Docker/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/tags/docker/</loc>
+    <lastmod>2022-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/tags/vim/</loc>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dormancywang.github.io/tags/java/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dormancywang.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dormancywang.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
